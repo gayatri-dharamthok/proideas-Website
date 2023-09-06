@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>ProIdeas-Project Ideas</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gloock&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/89ce9e330f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html" class="logo">ProIdeas</a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">PROJECT</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>PROJECTS</h1>
+  </section>
+
+<!-- javascript for toggle menu -->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-200px";
+    }
+  </script>
+
+<!-- balloon-car -->
+
+<section class="balloon-car">
+    <h1>Balloon-Powered Car Challenge</h1>
+    <h2>Abstract</h2>
+    <p>Do you think you could build a car powered by nothing but air? A balloon-powered car is pushed forward by air escaping from a balloon,<br> and it is fun and easy to build with materials you already have around your house. Can you imagine how you would want your own<br> balloon-powered car to look? Can you design a car that will travel as far as possible? <br>You can even measure your car's speed using your smartphone and a special sensor app. Get ready to grab some simple supplies to bring your idea to life!</p>
+    <h2><br><br>Summary<br><br></h2>
+    <h5>AREAS OF SCIENCE</h5>
+    <p>Physics<br>
+        Science With Your Smartphone<br>
+        Engineering Challenge</p>
+        <div class="row">
+            <div class="col">
+                <img src="images/ballon-car.jpg">
+            </div>
+            <div class="col">
+                <img src="images/ballon-car2.jpg">
+            </div>
+        </div>
+</section>
+
+
+<!-- Footer -->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  <div class="icons">
+    <i class="fa fa-brands fa-facebook"></i>
+    <i class="fa fa-brands fa-linkedin"></i>
+    <i class="fa fa-brands fa-twitter"></i>
+    <i class="fa fa-brands fa-instagram"></i>
+  </div>
+  <p>@AbCdEf</p>
+</section>
+
+</body>
+</html>
